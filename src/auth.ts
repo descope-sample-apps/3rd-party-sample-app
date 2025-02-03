@@ -15,7 +15,7 @@ const DescopeOAuthApps = ( // based on Descope provider
 ): OIDCConfig<DescopeProfile> => {
     return {
         id: "customapp",
-        name: "Custom App",
+        name: "Custom App", 
         type: "oidc",
         style: { bg: "#1C1C23", text: "#ffffff" },
         checks: ["pkce", "state"],
