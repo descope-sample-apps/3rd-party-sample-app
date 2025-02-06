@@ -7,7 +7,7 @@ export const projectId = process.env.PROJECT_ID ?? "";
 export const issuer = baseUrl + "/v1/apps/" + projectId;
 export const clientId =  process.env.CLIENT_ID ?? "";
 export const clientSecret = process.env.CLIENT_SECRET ?? "";
-export const scope = process.env.SCOPE  ?? "openid";
+export const scope = process.env.SCOPES  ?? "openid";
 export const consentScopes = process.env.CONSENT_SCOPES ?? "";
 
 const DescopeOAuthApps = ( // based on Descope provider
