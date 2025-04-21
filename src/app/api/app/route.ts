@@ -17,4 +17,4 @@ export const GET = auth(async function GET(req) {
         return NextResponse.json(await res.json(), { status: res.status });
     }
     return NextResponse.json({ message: "Not authenticated" }, { status: 401 })
-})
+}) as any;
